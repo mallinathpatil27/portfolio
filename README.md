@@ -87,7 +87,7 @@ flowchart LR
     B --> C[Cloud Composer<br>Apache Airflow]
     C --> D[Data Transformation<br>Python / PySpark]
     D --> E[BigQuery<br>Analytics Tables]
-    E --> F[Looker Studio<br>Dashboards & Reports]
+    E --> F[Looker Studio<br>Dashboards & Reports] ```
 
 ---
 
