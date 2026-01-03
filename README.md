@@ -66,9 +66,7 @@ The **Audience platform** was built as a **single source of truth data lake** se
 
 ---
 
-## Customer & Order Analytics Platform on GCP  
-
-**Role:** Data Engineer  
+## Customer & Order Analytics Platform on GCP    
 **Tech Stack:** Google Cloud Platform (GCP), Cloud Composer (Apache Airflow), Python, Google Cloud Storage (GCS), BigQuery, SQL, Looker Studio
 
 ### Project Description
