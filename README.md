@@ -91,15 +91,15 @@ The solution emphasizes:
 
 ## Architecture Overview
 
-*High-level workflow: File ingestion → Validation → ETL → Analytics-ready datasets → Reporting.*
+*High-level AWS e-commerce data platform architecture: File ingestion → Validation → ETL → Analytics-ready datasets → Reporting.*
 
 ```mermaid
 flowchart LR
-    A[Customer & Order Data] --> B[GCS - Raw Zone]
-    B --> C[Cloud Function / Lambda<br>File Detection & Validation]
-    C --> D[Cloud Composer - Airflow ETL<br>Python / PySpark Transformations]
-    D --> E[BigQuery - Analytics Tables]
-    E --> F[Looker Studio - Dashboards & Reports]
+    A[Transactional & Customer Data] --> B[AWS S3 - Raw Zone]
+    B --> C[AWS Lambda<br>File Detection & Validation]
+    C --> D[AWS Glue ETL Jobs<br>PySpark / Python]
+    D --> E[Amazon RDS & Analytics Stores]
+    E --> F[Amazon Athena / Reporting / BI]
 
 ---
 ### 📊 Metadata Dashboard Automation – BI4BI  
