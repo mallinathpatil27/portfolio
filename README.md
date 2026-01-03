@@ -1,4 +1,3 @@
-# Mallinath Patil – Data Engineering Portfolio
 <!-- Hero Banner Image: Top of the README -->
 <img src="assets/hero_banner.png" alt="Hero Banner" width="800">
 
