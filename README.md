@@ -32,7 +32,7 @@ I’m a Results-driven Data Engineer with over 5 years of experience designing a
 ## **Publicis Sapient, Hyderabad, India**  
 **Sr. Data Engineer (2024-Present)**
 
-###Projects
+### Projects
 ### 🎧 Podcast Listener Analytics – Audience Platform Data Lake
 **Tech Stack:** PySpark, Databricks, AWS S3, AWS Lambda  
 
@@ -59,7 +59,7 @@ The Audience platform was built as a single source of truth data lake for all bu
 ## **Ernst & Young, Bangalore, India**  
 **Data Engineer (2022-2024)**
 
-###Projects
+### Projects
 ### 🧮 IFRS17 Compliance Platform – Financial Services
 **Tech Stack:** AWS Glue, PySpark, Athena, RDS, Airflow  
 
@@ -96,7 +96,7 @@ Built a cloud-native analytics platform to serve as a centralized source of trut
 ## **Subtle Solutions, Pune, India**  
 **Role:** Data Engineer (2019-2022)
 
-###Projects
+### Projects
 ### E-Commerce Analytics & Data Platform on AWS
 **Tech Stack:** AWS Glue, PySpark, Python, S3, RDS, Lambda, Athena, EC2, SQL  
 
