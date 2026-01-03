@@ -81,13 +81,19 @@ Built a cloud-native analytics platform on Google Cloud to serve as a **centrali
 *Centralized flow from data ingestion in GCS → Airflow ETL → BigQuery → Looker Studio dashboards.*
 
 ## Architecture Overview
+
+![Architecture Diagram](assets/architecture.png)
+
+*Centralized flow from data ingestion in GCS → Airflow ETL → BigQuery → Looker Studio dashboards.*
+
 ```mermaid
 flowchart LR
     A[Customer & Order Data] --> B[GCS - Raw Zone]
     B --> C[Cloud Composer<br>Apache Airflow]
     C --> D[Data Transformation<br>Python / PySpark]
     D --> E[BigQuery<br>Analytics Tables]
-    E --> F[Looker Studio<br>Dashboards & Reports] ```
+    E --> F[Looker Studio<br>Dashboards & Reports]
+
 
 ---
 
