@@ -28,7 +28,6 @@ I’m a Results-driven Data Engineer with over 5 years of experience designing a
 ---
 ## 🏆 Certifications
 - **SnowPro Core Certification** – Snowflake  
-- [Add more certifications here]
 
 ---
 
@@ -48,9 +47,6 @@ I’m a Results-driven Data Engineer with over 5 years of experience designing a
 ### 🎧 Podcast Listener Analytics – Audience Platform Data Lake
 **Tech Stack:** PySpark, Databricks, AWS S3, AWS Lambda  
 
-<img src="assets/podcast_listner.png" alt="Audience Platform Architecture" width="400">
-<!-- Image: Architecture of the Audience Platform -->
-
 
 The Audience platform was built as a single source of truth data lake for all business units. It centralizes audience and podcast listener data and enables enterprise-wide reporting, advanced analytics, and data science model training.
 
@@ -63,10 +59,6 @@ The Audience platform was built as a single source of truth data lake for all bu
 
 ### 🔄 Redshift to Salesforce Migration
 **Tech Stack:** AWS Glue, AWS S3, Python Bulk API v2, PySpark  
-
-<img src="assets/data_migration.png" alt="Data Migration Architecture" width="400">
-<!-- Image: Data Migration -->
-
 
 - Migrated 1TB member records across Salesforce objects  
 - Used AWS Glue workflows for scalable ETL  
@@ -101,12 +93,6 @@ Built a cloud-native analytics platform to serve as a centralized source of trut
 - Created analytical SQL transformations for reporting  
 - Ensured fault-tolerant execution with error handling & retries 
 - Exposed datasets for Looker Studio dashboards
-
-### Architecture Overview
-<img src="assets/gcp_project.png" alt="Architecture Diagram" width="500">
-<!-- Image: GCP ETL pipeline architecture -->
-
-
 
 ### 📊 Metadata Dashboard Automation – BI4BI
 **Tech Stack:** Power BI, SQL Server, Python, REST APIs  
