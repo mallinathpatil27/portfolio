@@ -96,11 +96,10 @@ The solution emphasizes:
 ```mermaid
 flowchart LR
     A[Customer & Order Data] --> B[GCS - Raw Zone]
-    B --> C[AWS Lambda / Cloud Function<br>File Detection & Validation]
-    C --> D[Cloud Composer (Airflow) ETL<br>Python / PySpark Transformations]
+    B --> C[Cloud Function / Lambda<br>File Detection & Validation]
+    C --> D[Cloud Composer - Airflow ETL<br>Python / PySpark Transformations]
     D --> E[BigQuery - Analytics Tables]
     E --> F[Looker Studio - Dashboards & Reports]
-
 
 
 
