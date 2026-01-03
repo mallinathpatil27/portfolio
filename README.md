@@ -31,14 +31,6 @@ I’m a Results-driven Data Engineer with over 5 years of experience designing a
 
 ---
 
-## 📊 Business-Oriented Data Platform Overview
-<img src="assets/business_data_platform.png" alt="Business Data Platform" width="700">
-
-<!-- Image: Business data flow showing centralization of customer/order/transactional data -->
-*Centralized flow of customer, order, and transactional data into analytics-ready insights.*
-
----
-
 # Work Experience
 
 ## **Publicis Sapient, Hyderabad, India**  
