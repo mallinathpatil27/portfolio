@@ -48,7 +48,7 @@ I’m a **Results-driven Data Engineer** with over **5 years** of experience des
 ### 🎧 Podcast Listener Analytics – Audience Platform Data Lake
 **Tech Stack:** PySpark, Databricks, AWS S3, AWS Lambda  
 
-![Audience Platform Architecture](assets/audience_platform_arch.png)
+![Audience Platform Architecture](assets/podcast_listner.png)
 <!-- Image: Architecture of the Audience Platform -->
 
 The **Audience platform** was built as a **single source of truth data lake** for all business units. It centralizes audience and podcast listener data and enables enterprise-wide reporting, advanced analytics, and data science model training.
@@ -63,7 +63,7 @@ The **Audience platform** was built as a **single source of truth data lake** fo
 ### 🔄 Redshift to Salesforce Migration
 **Tech Stack:** AWS Glue, AWS S3, Python Bulk API v2, PySpark  
 
-![Data Migration Architecture](assets/audience_platform_arch.png)
+![Data Migration Architecture](assets/data_migration.png)
 <!-- Image: Data Migration -->
 
 - Migrated **17M+ member records** across Salesforce objects  
@@ -105,7 +105,7 @@ Built a **cloud-native analytics platform** to serve as a **centralized source o
 - Exposed datasets for **Looker Studio dashboards**  
 
 ### Architecture Overview
-![Architecture Diagram](assets/architecture.png)
+![Architecture Diagram](assets/gcp_project.png)
 <!-- Image: GCP ETL pipeline architecture -->
 
 
@@ -135,10 +135,6 @@ Developed a **scalable AWS data platform** to support analytics, reporting, and 
 - Automated tasks using **AWS Lambda**, validated via **Amazon Athena**  
 - Monitored production pipelines and fixed issues with minimal downtime  
 - Delivered **analytics-ready datasets** for downstream reporting  
-
-### Architecture Overview
-![AWS E-Commerce Architecture](assets/aws_ecommerce_arch.png)
-<!-- Image: AWS e-commerce data platform architecture -->
 
 ---
 
