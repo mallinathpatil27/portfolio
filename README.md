@@ -89,19 +89,7 @@ The solution emphasizes:
 
 ---
 
-## Architecture Overview
 
-*High-level AWS e-commerce data platform architecture: File ingestion → Validation → ETL → Analytics-ready datasets → Reporting.*
-
-```mermaid
-flowchart LR
-    A[Transactional & Customer Data] --> B[AWS S3 - Raw Zone]
-    B --> C[AWS Lambda<br>File Detection & Validation]
-    C --> D[AWS Glue ETL Jobs<br>PySpark / Python]
-    D --> E[Amazon RDS & Analytics Stores]
-    E --> F[Amazon Athena / Reporting / BI]
-
----
 ### 📊 Metadata Dashboard Automation – BI4BI  
 **Tech Stack**: Power BI, SQL Server, Python, REST APIs  
 
