@@ -123,20 +123,49 @@ Built a cloud-native analytics platform on Google Cloud to serve as a **centrali
 - Enabled actionable insights through data modeling and transformation using **Pandas and SQL**.
 
 ---
-**Subtle Solutions Pune, India**
-**Data Engineer (2019-2022)**
-###E-Commerce Analytics & Data Platform on AWS
-**Tech Stack**: AWS Glue, PySpark, Python, AWS S3, Amazon RDS, AWS Lambda, Amazon Athena, EC2, SQL
-**Project Description**
-Developed a scalable data platform on AWS to support analytics, reporting, and operational insights for a growing e-commerce business. The platform ingests and transforms large volumes of transactional and customer data using distributed processing, enforces data quality standards, and delivers analytics-ready datasets to downstream systems. The solution focuses on performance optimization, reliability, and seamless integration across AWS services.
+# Subtle Solutions Pune, India**
+# E-Commerce Analytics & Data Platform on AWS
 
-Key Responsibilities & Achievements
---Designed and implemented scalable ETL pipelines using AWS Glue, PySpark, and Python to process high-volume e-commerce data.
---Ingested and transformed data from multiple commerce source systems and loaded curated datasets into Amazon RDS and analytics stores.
---Implemented data quality checks and validation rules to ensure data completeness, accuracy, and consistency across the pipeline.
---Optimized PySpark jobs and SQL queries using partitioning, efficient joins, and caching to reduce processing time and resource usage.
---Managed complex data mapping and schema alignment to standardize data from disparate source systems.
---Utilized AWS Lambda for automation tasks and Amazon Athena for ad-hoc analysis and data validation.
---Monitored production pipelines, analyzed PROD issues, identified root causes, and deployed fixes with minimal downtime.
---Collaborated in Agile/Scrum ceremonies, including daily stand-ups and sprint planning, and participated in weekly client meetings for requirement gathering and delivery updates.
---Supported downstream reporting and analytics use cases by delivering reliable, analytics-ready datasets.
+**Company:** Subtle Solutions, Pune, India  
+**Role:** Data Engineer (2019-2022)  
+**Tech Stack:** AWS Glue, PySpark, Python, AWS S3, Amazon RDS, AWS Lambda, Amazon Athena, EC2, SQL
+
+---
+
+## Project Description
+
+Developed a **scalable data platform on AWS** to support analytics, reporting, and operational insights for a growing e-commerce business. The platform:  
+
+- Ingests and transforms large volumes of transactional and customer data using distributed processing.  
+- Enforces **data quality standards** across the pipeline.  
+- Delivers **analytics-ready datasets** to downstream systems for reporting and BI.  
+- Focuses on **performance optimization**, reliability, and seamless integration across AWS services.
+
+---
+
+## Key Responsibilities & Achievements
+
+- Designed and implemented **scalable ETL pipelines** using AWS Glue, PySpark, and Python to process high-volume e-commerce data.  
+- Ingested and transformed data from **multiple commerce source systems** and loaded curated datasets into Amazon RDS and analytics stores.  
+- Implemented **data quality checks and validation rules** to ensure completeness, accuracy, and consistency across the pipeline.  
+- Optimized **PySpark jobs and SQL queries** using partitioning, efficient joins, and caching to reduce processing time and resource usage.  
+- Managed **complex data mapping and schema alignment** to standardize data from disparate source systems.  
+- Utilized **AWS Lambda** for automation tasks and **Amazon Athena** for ad-hoc analysis and data validation.  
+- Monitored **production pipelines**, analyzed PROD issues, identified root causes, and deployed fixes with minimal downtime.  
+- Collaborated in **Agile/Scrum ceremonies**, including daily stand-ups and sprint planning, and participated in weekly client meetings for requirement gathering and delivery updates.  
+- Supported **downstream reporting and analytics use cases** by delivering reliable, analytics-ready datasets.
+
+---
+
+## Architecture Overview
+
+*High-level AWS e-commerce data platform architecture: Ingestion → Transformation → Analytics-ready datasets.*
+
+```mermaid
+flowchart LR
+    A[Transactional & Customer Data] --> B[AWS S3 - Raw Zone]
+    B --> C[AWS Glue ETL Jobs<br>PySpark / Python]
+    C --> D[Amazon RDS & Analytics Stores]
+    D --> E[AWS Lambda<br>Automation / Validation]
+    D --> F[Amazon Athena<br>Ad-hoc Analysis & Reporting]
+
