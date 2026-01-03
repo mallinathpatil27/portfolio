@@ -1,3 +1,4 @@
+```markdown
 # Mallinath  Patil – Data Engineering Portfolio
 
 Welcome to my **Data Engineering Portfolio** – a curated collection of real-world data projects and case studies showcasing my expertise in building scalable, efficient, and reliable data pipelines using Python, PySpark, AWS, Databricks, and more.
@@ -88,7 +89,6 @@ The solution emphasizes:
 - Monitored and scheduled pipelines via **Cloud Composer**, reducing operational overhead.
 
 ---
-```markdown
 ## Architecture Overview
 
 ![Architecture Diagram](assets/architecture.png)
