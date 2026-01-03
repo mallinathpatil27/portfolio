@@ -101,9 +101,7 @@ flowchart LR
     D --> E[BigQuery - Analytics Tables]
     E --> F[Looker Studio - Dashboards & Reports]
 
-
-
-
+--
 ### 📊 Metadata Dashboard Automation – BI4BI  
 **Tech Stack**: Power BI, SQL Server, Python, REST APIs  
 
