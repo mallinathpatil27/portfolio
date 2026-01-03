@@ -77,6 +77,26 @@ Built a cloud-native analytics platform on Google Cloud to serve as a **centrali
 
 ## Architecture Overview
 ![Architecture Diagram](assets/architecture.png)
+
+✅ **Notes / Tips:**
+1. GitHub supports **Mermaid diagrams in Markdown** natively. Just paste this into your `README.md`.  
+2. Mermaid automatically draws arrows between nodes; no extra styling is needed.  
+3. If you want **colors**, you can do this:  
+
+```mermaid
+flowchart LR
+    A[Customer & Order Data]:::source --> B[GCS - Raw Zone]:::storage
+    B --> C[Cloud Composer (Apache Airflow)]:::etl
+    C --> D[Data Transformation (Python / PySpark)]:::etl
+    D --> E[BigQuery - Analytics Tables]:::warehouse
+    E --> F[Looker Studio - Dashboards & Reports]:::dashboard
+
+classDef source fill:#f9f,stroke:#333,stroke-width:1px;
+classDef storage fill:#ccf,stroke:#333,stroke-width:1px;
+classDef etl fill:#cfc,stroke:#333,stroke-width:1px;
+classDef warehouse fill:#fcf,stroke:#333,stroke-width:1px;
+classDef dashboard fill:#ffc,stroke:#333,stroke-width:1px;
+
 *Centralized flow from data ingestion in GCS → Airflow ETL → BigQuery → Looker Studio dashboards.*
 
 ---
