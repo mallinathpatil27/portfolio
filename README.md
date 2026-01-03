@@ -109,7 +109,7 @@ flowchart LR
 - Delivered **Power BI dashboards** to visualize key data trends and business KPIs.
 - Enabled actionable insights through data modeling and transformation using **Pandas and SQL**.
 
----
+--
 # Subtle Solutions Pune, India**
 # E-Commerce Analytics & Data Platform on AWS
 
