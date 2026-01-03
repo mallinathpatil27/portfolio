@@ -88,7 +88,10 @@ The solution emphasizes:
 - Monitored and scheduled pipelines via **Cloud Composer**, reducing operational overhead.
 
 ---
+```markdown
+## Architecture Overview
 
+![Architecture Diagram](assets/architecture.png)
 
 ### 📊 Metadata Dashboard Automation – BI4BI  
 **Tech Stack**: Power BI, SQL Server, Python, REST APIs  
