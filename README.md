@@ -59,7 +59,6 @@ The **Audience platform** was built as a **single source of truth data lake** fo
 - Orchestrated ETL workflows using **Databricks Workflows**  
 - Optimized query performance with **PySpark and SQL tuning**
 
----
 
 ### 🔄 Redshift to Salesforce Migration
 **Tech Stack:** AWS Glue, AWS S3, Python Bulk API v2, PySpark  
@@ -85,9 +84,8 @@ The **Audience platform** was built as a **single source of truth data lake** fo
 - Automated workflows with **Apache Airflow**  
 - Established **robust data validation frameworks**  
 
----
 
-## Customer & Order Analytics Platform on GCP
+### Customer & Order Analytics Platform on GCP
 **Tech Stack:** GCP, Cloud Composer (Apache Airflow), Python, GCS, BigQuery, SQL, Looker Studio
 
 ### Project Description
@@ -110,7 +108,6 @@ Built a **cloud-native analytics platform** to serve as a **centralized source o
 ![Architecture Diagram](assets/architecture.png)
 <!-- Image: GCP ETL pipeline architecture -->
 
----
 
 ### 📊 Metadata Dashboard Automation – BI4BI
 **Tech Stack:** Power BI, SQL Server, Python, REST APIs  
