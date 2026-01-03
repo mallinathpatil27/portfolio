@@ -1,4 +1,5 @@
 # Mallinath Patil – Data Engineering Portfolio
+![Hero Banner](assets/hero_banner.png)
 
 Welcome to my **Data Engineering Portfolio** – a curated collection of real-world data projects and case studies showcasing my expertise in building scalable, efficient, and reliable data pipelines using Python, PySpark, AWS, Databricks, and more.
 
@@ -24,7 +25,12 @@ I bring a proven track record of enhancing data pipeline performance (up to **30
 - **B.E.**, BMS College of Engineering (2014-2018)
 
 ---
+## Business-Oriented Data Platform Overview
 
+![Business Data Platform](assets/business_data_platform.png)
+
+*High-level overview of how customer, order, and transactional data is centralized, processed, and converted into actionable business insights.*
+---
 # Work Experience
 
 ## **Publicis Sapient, Hyderabad, India**  
@@ -32,6 +38,9 @@ I bring a proven track record of enhancing data pipeline performance (up to **30
 
 ### 🎧 Podcast Listener Analytics – Audience Platform Data Lake Implementation  
 **Tech Stack:** PySpark, Databricks, AWS S3, AWS Lambda  
+
+![Audience Platform Architecture](assets/audience_platform_arch.png)
+*High-level architecture of the Audience Platform at Publicis Sapient.*
 
 The **Audience platform** was built as a **single source of truth data lake** serving all business units. It centralizes audience and podcast listener data and enables enterprise-wide reporting, advanced analytics, and data science model training.
 
