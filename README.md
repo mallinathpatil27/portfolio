@@ -49,8 +49,9 @@ I’m a **Results-driven Data Engineer** with over **5 years** of experience des
 ### 🎧 Podcast Listener Analytics – Audience Platform Data Lake
 **Tech Stack:** PySpark, Databricks, AWS S3, AWS Lambda  
 
-![Audience Platform Architecture](assets/podcast_listner.png)
+<img src="assets/podcast_listner.png" alt="Audience Platform Architecture" width="400">
 <!-- Image: Architecture of the Audience Platform -->
+
 
 The **Audience platform** was built as a **single source of truth data lake** for all business units. It centralizes audience and podcast listener data and enables enterprise-wide reporting, advanced analytics, and data science model training.
 
@@ -64,8 +65,9 @@ The **Audience platform** was built as a **single source of truth data lake** fo
 ### 🔄 Redshift to Salesforce Migration
 **Tech Stack:** AWS Glue, AWS S3, Python Bulk API v2, PySpark  
 
-![Data Migration Architecture](assets/data_migration.png)
+<img src="assets/data_migration.png" alt="Data Migration Architecture" width="400">
 <!-- Image: Data Migration -->
+
 
 - Migrated **17M+ member records** across Salesforce objects  
 - Used **AWS Glue workflows** for scalable ETL  
@@ -106,8 +108,9 @@ Built a **cloud-native analytics platform** to serve as a **centralized source o
 - Exposed datasets for **Looker Studio dashboards**  
 
 ### Architecture Overview
-![Architecture Diagram](assets/gcp_project.png)
+<img src="assets/gcp_project.png" alt="Architecture Diagram" width="500">
 <!-- Image: GCP ETL pipeline architecture -->
+
 
 
 ### 📊 Metadata Dashboard Automation – BI4BI
