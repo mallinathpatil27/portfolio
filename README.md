@@ -101,7 +101,7 @@ flowchart LR
     D --> E[BigQuery - Analytics Tables]
     E --> F[Looker Studio - Dashboards & Reports]
 
---
+---
 ### 📊 Metadata Dashboard Automation – BI4BI  
 **Tech Stack**: Power BI, SQL Server, Python, REST APIs  
 
@@ -109,7 +109,7 @@ flowchart LR
 - Delivered **Power BI dashboards** to visualize key data trends and business KPIs.
 - Enabled actionable insights through data modeling and transformation using **Pandas and SQL**.
 
---
+---
 # Subtle Solutions Pune, India**
 # E-Commerce Analytics & Data Platform on AWS
 
