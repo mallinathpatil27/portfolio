@@ -1,7 +1,8 @@
 # Mallinath Patil – Data Engineering Portfolio
 ![Hero Banner](assets/hero_banner.png)
+<!-- Hero Banner Image: Top of the README -->
 
-Welcome to my **Data Engineering Portfolio** – a curated collection of real-world data projects and case studies showcasing my expertise in building scalable, efficient, and reliable data pipelines using Python, PySpark, AWS, Databricks, and more.
+Welcome to my **Data Engineering Portfolio** – a curated collection of real-world data projects showcasing my expertise in building scalable, efficient, and reliable data pipelines using Python, PySpark, AWS, Databricks, GCP, and more.  
 
 > 🚀 **Transforming complex data into business value — one pipeline at a time.**
 
@@ -9,140 +10,178 @@ Welcome to my **Data Engineering Portfolio** – a curated collection of real-wo
 
 ## 👨‍💻 About Me
 
-I’m a **Results-driven Data Engineer** with over **5 years** of experience designing and optimizing ETL/ELT pipelines, handling large-scale structured and semi-structured data, and implementing cloud-native solutions. I specialize in:
+I’m a **Results-driven Data Engineer** with over **5 years** of experience designing and optimizing ETL/ELT pipelines, handling large-scale structured and semi-structured data, and implementing cloud-native solutions.  
 
+**Specialties include:**
 - Building robust data pipelines using **Python, PySpark, SQL**  
-- Working across modern cloud stacks: **AWS Glue, Lambda, S3, EC2**  
+- Working across modern cloud stacks: **AWS Glue, Lambda, S3, EC2, GCP, BigQuery**  
 - Developing scalable solutions on **Databricks and Snowflake**  
 - Orchestrating workflows with **Apache Airflow**  
 - Driving **data quality**, performance tuning, and cost-optimized design  
 
-I bring a proven track record of enhancing data pipeline performance (up to **30% reduction in runtime**) and delivering highly reliable (99.9% uptime) solutions that impact business decisions.
+> Proven track record: Up to **30% reduction in ETL runtime** and highly reliable pipelines (**99.9% uptime**).
 
 ---
 
-## Education
-- **B.E.**, BMS College of Engineering (2014-2018)
+## 🎓 Education
+- **B.E.**, BMS College of Engineering (2014–2018)
 
 ---
-## Business-Oriented Data Platform Overview
+## 🏆 Certifications
+- **SnowPro Core Certification** – Snowflake  
+- [Add more certifications here]
 
+---
+
+## 📊 Business-Oriented Data Platform Overview
 ![Business Data Platform](assets/business_data_platform.png)
+<!-- Image: Business data flow showing centralization of customer/order/transactional data -->
+*Centralized flow of customer, order, and transactional data into analytics-ready insights.*
 
-*High-level overview of how customer, order, and transactional data is centralized, processed, and converted into actionable business insights.*
 ---
+
 # Work Experience
 
 ## **Publicis Sapient, Hyderabad, India**  
 **Sr. Data Engineer (2024-Present)**
 
-### 🎧 Podcast Listener Analytics – Audience Platform Data Lake Implementation  
+### 🎧 Podcast Listener Analytics – Audience Platform Data Lake
 **Tech Stack:** PySpark, Databricks, AWS S3, AWS Lambda  
 
 ![Audience Platform Architecture](assets/audience_platform_arch.png)
-*High-level architecture of the Audience Platform at Publicis Sapient.*
+<!-- Image: Architecture of the Audience Platform -->
 
-The **Audience platform** was built as a **single source of truth data lake** serving all business units. It centralizes audience and podcast listener data and enables enterprise-wide reporting, advanced analytics, and data science model training.
+The **Audience platform** was built as a **single source of truth data lake** for all business units. It centralizes audience and podcast listener data and enables enterprise-wide reporting, advanced analytics, and data science model training.
 
-- Built scalable ingestion and transformation pipelines for podcast listener data  
+- Built scalable ingestion and transformation pipelines  
 - Designed multi-layer architecture: **Landing → Silver → Analytical**  
-- Implemented listener mapping algorithms across multiple data sources  
-- Orchestrated ETL workflows using **Databricks Workflows** with minimal manual intervention  
-- Improved query performance through **tuning of PySpark jobs and SQL transformations**  
+- Implemented listener mapping algorithms across multiple sources  
+- Orchestrated ETL workflows using **Databricks Workflows**  
+- Optimized query performance with **PySpark and SQL tuning**
 
 ---
 
-### 🔄 Redshift to Salesforce Migration  
+### 🔄 Redshift to Salesforce Migration
 **Tech Stack:** AWS Glue, AWS S3, Python Bulk API v2, PySpark  
 
-- Delivered **end-to-end data migration** for 17M+ member records across key Salesforce objects  
-- Used **AWS Glue workflows** and config-based design for flexibility and scalability  
-- Implemented **bulk insert and upsert** logic with Python Bulk API v2  
-- Achieved <1% error rate in production and received a **Certificate of Excellence**  
+![Data Migration Architecture](assets/audience_platform_arch.png)
+<!-- Image: Data Migration -->
+
+- Migrated **17M+ member records** across Salesforce objects  
+- Used **AWS Glue workflows** for scalable ETL  
+- Implemented **bulk insert/upsert** logic via Python Bulk API v2  
+- Achieved <1% error rate in production (**Certificate of Excellence**)  
 
 ---
 
 ## **Ernst & Young, Bangalore, India**  
 **Data Engineer (2022-2024)**
 
-### 🧮 IFRS17 Compliance Platform – Financial Services  
+### 🧮 IFRS17 Compliance Platform – Financial Services
 **Tech Stack:** AWS Glue, PySpark, Athena, RDS, Airflow  
 
-- Built and deployed pipelines to support IFRS17 regulatory requirements  
-- Used **Athena + RDS** for efficient data querying and storage  
-- Automated workflows with **Apache Airflow**, reducing manual effort  
-- Established **robust data validation frameworks** and collaborated with QA/UAT teams for successful rollout  
+- Built pipelines for **IFRS17 regulatory compliance**  
+- Used **Athena + RDS** for efficient querying and storage  
+- Automated workflows with **Apache Airflow**  
+- Established **robust data validation frameworks**  
 
 ---
 
-## Customer & Order Analytics Platform on GCP    
-**Tech Stack:** Google Cloud Platform (GCP), Cloud Composer (Apache Airflow), Python, Google Cloud Storage (GCS), BigQuery, SQL, Looker Studio
+## Customer & Order Analytics Platform on GCP
+**Tech Stack:** GCP, Cloud Composer (Apache Airflow), Python, GCS, BigQuery, SQL, Looker Studio
 
 ### Project Description
-Built a **cloud-native analytics platform** on Google Cloud to serve as a **centralized source of truth** for customer and order data. The platform automates daily ingestion, transformation, and loading of raw data into BigQuery, enabling reliable **business reporting and analytics**.  
+Built a **cloud-native analytics platform** to serve as a **centralized source of truth** for customer and order data.  
 
-The solution emphasizes:  
-- **Scalability** to handle growing volumes of customer and order data  
-- **Data quality** through automated validation and standardized transformations  
+**Key focus:**  
+- **Scalability** for growing datasets  
+- **Data quality** with automated validation and transformations  
 
-### Key Responsibilities & Achievements
-- Designed and implemented an **end-to-end ETL pipeline** on Google Cloud to process daily customer and order datasets  
-- Orchestrated workflows using **Apache Airflow (Cloud Composer)** for automated ingestion, transformation, and loading  
-- Ingested raw files from **Google Cloud Storage (GCS)** with automated file detection and validation  
-- Developed **Python-based data cleaning and transformation logic**, including column standardization, missing value handling, and schema consistency  
-- Loaded curated datasets into **BigQuery** using optimized load jobs with schema autodetection and configurable write modes  
-- Created **analytical SQL transformations** in BigQuery to join customer and order data for reporting use cases  
-- Implemented **error handling, retries, and task dependencies** for fault-tolerant pipeline execution  
-- Enabled **business intelligence and reporting** by exposing analytics-ready datasets to **Looker Studio**  
-- Monitored and scheduled pipelines via **Cloud Composer**, reducing operational overhead  
+### Key Achievements
+- Designed **end-to-end ETL pipelines** for daily customer & order data  
+- Orchestrated workflows via **Cloud Composer**  
+- Cleaned and transformed data in **Python**, standardized columns, handled missing values  
+- Loaded datasets into **BigQuery**, optimized for analytics  
+- Created **analytical SQL transformations** for reporting  
+- Ensured fault-tolerant execution with **error handling & retries**  
+- Exposed datasets for **Looker Studio dashboards**  
 
 ### Architecture Overview
 ![Architecture Diagram](assets/architecture.png)
+<!-- Image: GCP ETL pipeline architecture -->
 
 ---
 
-### 📊 Metadata Dashboard Automation – BI4BI  
+### 📊 Metadata Dashboard Automation – BI4BI
 **Tech Stack:** Power BI, SQL Server, Python, REST APIs  
 
-- Automated metadata ingestion using Python + REST APIs  
-- Delivered **Power BI dashboards** to visualize key data trends and business KPIs  
-- Enabled actionable insights through data modeling and transformation using **Pandas and SQL**  
+- Automated metadata ingestion using **Python + REST APIs**  
+- Delivered **Power BI dashboards** for key metrics  
+- Enabled actionable insights through **Pandas and SQL transformations**  
 
 ---
 
 ## **Subtle Solutions, Pune, India**  
 **Role:** Data Engineer (2019-2022)
 
-### E-Commerce Analytics & Data Platform on AWS  
-**Tech Stack:** AWS Glue, PySpark, Python, AWS S3, Amazon RDS, AWS Lambda, Amazon Athena, EC2, SQL  
+### E-Commerce Analytics & Data Platform on AWS
+**Tech Stack:** AWS Glue, PySpark, Python, S3, RDS, Lambda, Athena, EC2, SQL  
 
-### Project Description
-Developed a **scalable data platform on AWS** to support analytics, reporting, and operational insights for a growing e-commerce business. The platform:  
+**Project Description**  
+Developed a **scalable AWS data platform** to support analytics, reporting, and operations.  
 
-- Ingests and transforms large volumes of transactional and customer data using distributed processing  
-- Enforces **data quality standards** across the pipeline  
-- Delivers **analytics-ready datasets** to downstream systems for reporting and BI  
-- Focuses on **performance optimization**, reliability, and seamless integration across AWS services  
-
-### Key Responsibilities & Achievements
-- Designed and implemented **scalable ETL pipelines** using AWS Glue, PySpark, and Python  
-- Ingested and transformed data from **multiple commerce source systems** and loaded curated datasets into Amazon RDS and analytics stores  
-- Implemented **data quality checks and validation rules** to ensure completeness, accuracy, and consistency across the pipeline  
-- Optimized **PySpark jobs and SQL queries** using partitioning, efficient joins, and caching  
-- Managed **complex data mapping and schema alignment** to standardize data from disparate source systems  
-- Utilized **AWS Lambda** for automation tasks and **Amazon Athena** for ad-hoc analysis and data validation  
-- Monitored **production pipelines**, analyzed PROD issues, identified root causes, and deployed fixes with minimal downtime  
-- Collaborated in **Agile/Scrum ceremonies**, including daily stand-ups and sprint planning  
-- Supported **downstream reporting and analytics use cases** by delivering reliable, analytics-ready datasets  
+**Key Achievements**
+- Built **scalable ETL pipelines** using AWS Glue and PySpark  
+- Ingested data from **multiple commerce systems** into **RDS & analytics stores**  
+- Implemented **data quality checks & validation rules**  
+- Optimized **PySpark jobs and SQL queries**  
+- Automated tasks using **AWS Lambda**, validated via **Amazon Athena**  
+- Monitored production pipelines and fixed issues with minimal downtime  
+- Delivered **analytics-ready datasets** for downstream reporting  
 
 ### Architecture Overview
+![AWS E-Commerce Architecture](assets/aws_ecommerce_arch.png)
+<!-- Image: AWS e-commerce data platform architecture -->
 
-*High-level AWS e-commerce data platform architecture: File ingestion → Validation → ETL → Analytics-ready datasets → Reporting.*
+---
 
-```mermaid
-flowchart LR
-    A[Transactional & Customer Data] --> B[AWS S3 - Raw Zone]
-    B --> C[AWS Lambda<br>File Detection & Validation]
-    C --> D[AWS Glue ETL Jobs<br>PySpark / Python]
-    D --> E[Amazon RDS & Analytics Stores]
-    E --> F[Amazon Athena / Reporting / BI]
+## 🌐 GitHub Pages Portfolio Website
+
+🔗 [https://mallinathnpatil1996.github.io](https://mallinathnpatil1996.github.io) 
+
+---
+
+## 📫 Contact Me
+
+- 📧 **Email**: [mallinathnpatil1996@gmail.com](mailto:mallinathnpatil1996@gmail.com)  
+- 🔗 **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
+
+---
+
+## 🏅 Achievements
+
+- Certificate of Excellence – Publicis Sapient  
+- Successfully migrated 17M+ records with <1% error  
+- Reduced ETL runtime by 30% across multiple pipelines  
+
+---
+
+## 🎨 Hobbies & Interests
+
+- Data visualization & dashboards  
+- Open-source contributions  
+- Reading technical blogs & research papers  
+- Playing chess  
+
+---
+
+## 📜 License
+
+This repository is open-source and available for educational and portfolio purposes. Please attribute if referencing or reusing code.
+
+---
+
+## 🙏 Acknowledgments
+
+Thanks to mentors, peers, and teams who shaped my professional journey and these projects.
+
