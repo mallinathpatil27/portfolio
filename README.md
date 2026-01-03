@@ -57,60 +57,50 @@ I bring a proven track record of enhancing data pipeline performance (up to 30% 
 **Tech Stack:** Google Cloud Platform (GCP), Cloud Composer (Apache Airflow), Python, Google Cloud Storage (GCS), BigQuery, SQL, Looker Studio
 
 ---
+# Customer & Order Analytics Platform on GCP
+
+**Role:** Data Engineer  
+**Tech Stack:** Google Cloud Platform (GCP), Cloud Composer (Apache Airflow), Python, Google Cloud Storage (GCS), BigQuery, SQL, Looker Studio
+
+---
+
 ## Project Description
-Built a cloud-native analytics platform on Google Cloud to serve as a **centralized source of truth** for customer and order data. The platform automates daily ingestion, transformation, and loading of raw data into BigQuery, enabling reliable business reporting and analytics. The solution emphasizes **scalability, data quality, and minimal manual intervention** through workflow orchestration with Apache Airflow.
+
+Built a **cloud-native analytics platform** on Google Cloud to serve as a **centralized source of truth** for customer and order data. The platform automates daily ingestion, transformation, and loading of raw data into BigQuery, enabling reliable **business reporting and analytics**.  
+
+The solution emphasizes:  
+- **Scalability** to handle growing volumes of customer and order data  
+- **Data quality** through automated validation and standardized transformations  
+- **Minimal manual intervention** using workflow orchestration with Apache Airflow
 
 ---
 
 ## Key Responsibilities & Achievements
-- Designed and implemented an **end-to-end ETL pipeline** on Google Cloud to process daily customer and order datasets.
-- Orchestrated workflows using **Apache Airflow (Cloud Composer)** for automated ingestion, transformation, and loading.
-- Ingested raw files from **Google Cloud Storage (GCS)** with automated file detection and validation.
-- Developed **Python-based data cleaning and transformation logic**, including column standardization, missing value handling, and schema consistency.
-- Loaded curated datasets into **BigQuery** using optimized load jobs with schema autodetection and configurable write modes.
-- Created **analytical SQL transformations** in BigQuery to join customer and order data for reporting use cases.
-- Implemented **error handling, retries, and task dependencies** to ensure reliable and fault-tolerant pipeline execution.
-- Enabled **business intelligence and reporting** by exposing analytics-ready datasets to **Looker Studio**.
+
+- Designed and implemented an **end-to-end ETL pipeline** on Google Cloud to process daily customer and order datasets.  
+- Orchestrated workflows using **Apache Airflow (Cloud Composer)** for automated ingestion, transformation, and loading.  
+- Ingested raw files from **Google Cloud Storage (GCS)** with automated file detection and validation.  
+- Developed **Python-based data cleaning and transformation logic**, including column standardization, missing value handling, and schema consistency.  
+- Loaded curated datasets into **BigQuery** using optimized load jobs with schema autodetection and configurable write modes.  
+- Created **analytical SQL transformations** in BigQuery to join customer and order data for reporting use cases.  
+- Implemented **error handling, retries, and task dependencies** for fault-tolerant pipeline execution.  
+- Enabled **business intelligence and reporting** by exposing analytics-ready datasets to **Looker Studio**.  
 - Monitored and scheduled pipelines via **Cloud Composer**, reducing operational overhead.
 
 ---
 
 ## Architecture Overview
-![Architecture Diagram](assets/architecture.png)
 
-*Centralized flow from data ingestion in GCS → Airflow ETL → BigQuery → Looker Studio dashboards.*
+*High-level workflow: File ingestion → Validation → ETL → Analytics-ready datasets → Reporting.*
 
-## Architecture Overview
+```mermaid
+flowchart LR
+    A[Customer & Order Data] --> B[GCS - Raw Zone]
+    B --> C[AWS Lambda / Cloud Function<br>File Detection & Validation]
+    C --> D[Cloud Composer (Airflow) ETL<br>Python / PySpark Transformations]
+    D --> E[BigQuery - Analytics Tables]
+    E --> F[Looker Studio - Dashboards & Reports]
 
-![Architecture Diagram](assets/architecture.png)
-
-*Centralized flow from data ingestion in GCS → Airflow ETL → BigQuery → Looker Studio dashboards.*
-
----
-
-## Data Flow
-![Data Flow Diagram](assets/data_flow.png)
-*Daily customer and order files are detected, validated, transformed, and loaded into BigQuery.*
-
----
-
-## Pipeline Workflow
-![Pipeline Workflow](assets/pipeline_workflow.png)
-*High-level overview of ETL steps, including ingestion, cleaning, transformation, and loading.*
-
----
-
-## DAG Execution Flow
-![DAG Flow](assets/dag_execution.png)
-*Task orchestration flow handled by Cloud Composer (Airflow), including error handling and retries.*
-
----
-
-## Future Enhancements
-- Add **streaming ingestion** for near real-time updates.  
-- Introduce **dbt transformations** for modular and testable analytics pipelines.  
-- Implement **data lineage & observability** dashboards.  
-- Integrate **machine learning pipelines** for predictive analytics.
 
 
 
