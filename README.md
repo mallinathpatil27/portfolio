@@ -1,6 +1,6 @@
 # Mallinath Patil – Data Engineering Portfolio
-![Hero Banner](assets/hero_banner.png)
 <!-- Hero Banner Image: Top of the README -->
+<img src="assets/hero_banner.png" alt="Hero Banner" width="800">
 
 Welcome to my **Data Engineering Portfolio** – a curated collection of real-world data projects showcasing my expertise in building scalable, efficient, and reliable data pipelines using Python, PySpark, AWS, Databricks, GCP, and more.  
 
@@ -34,7 +34,8 @@ I’m a **Results-driven Data Engineer** with over **5 years** of experience des
 ---
 
 ## 📊 Business-Oriented Data Platform Overview
-![Business Data Platform](assets/business_data_platform.png)
+<img src="assets/business_data_platform.png" alt="Business Data Platform" width="700">
+
 <!-- Image: Business data flow showing centralization of customer/order/transactional data -->
 *Centralized flow of customer, order, and transactional data into analytics-ready insights.*
 
