@@ -1,14 +1,9 @@
 <!-- Hero Banner Image: Top of the README -->
 <img src="assets/hero_banner.png" alt="Hero Banner" width="800">
-
-Welcome to my Data Engineering Portfolio – a curated collection of real-world data projects showcasing my expertise in building scalable, efficient, and reliable data pipelines using Python, PySpark, AWS, Databricks, GCP, and more.  
-
-> 🚀 **Transforming complex data into business value — one pipeline at a time.**
-
 ---
 
 ## 👨‍💻 About Me
-
+<a id="about"></a>
 I’m a Results-driven Data Engineer with over 5 years of experience designing and optimizing ETL/ELT pipelines, handling large-scale structured and semi-structured data, and implementing cloud-native solutions.  
 
 **Specialties include:**
@@ -32,6 +27,7 @@ I’m a Results-driven Data Engineer with over 5 years of experience designing a
 ---
 
 # Work Experience
+<a id="experience"></a>
 
 ## **Publicis Sapient, Hyderabad, India**  
 **Sr. Data Engineer (2024-Present)**
@@ -116,13 +112,14 @@ Developed a scalable AWS data platform to support analytics, reporting, and oper
 ---
 
 ## 🌐 GitHub Pages Portfolio Website
+<a id="portfolio"></a>
 
 🔗 [https://mallinathnpatil1996.github.io](https://mallinathnpatil1996.github.io) 
 
 ---
 
 ## 📫 Contact Me
-
+<a id="contact"></a>
 - 📧 **Email**: [mallinathnpatil1996@gmail.com](mailto:mallinathnpatil1996@gmail.com)  
 - 🔗 **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
 
@@ -145,6 +142,7 @@ Developed a scalable AWS data platform to support analytics, reporting, and oper
 
 ---
 ## 🛠️ Skills & Tools
+<a id="skills"></a>
 
 | Category              | Tools & Technologies                               |
 |-----------------------|-----------------------------------------------------|
