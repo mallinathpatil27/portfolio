@@ -20,7 +20,7 @@ I bring a proven track record of enhancing data pipeline performance (up to 30% 
 - B.E. | BMS College of Engineering (2014-2018)
 
 ### Work Experience
-**Publicis Sapient, Hyderabad, India*
+**Publicis Sapient, Hyderabad, India**
 **Sr. Data Engineer(2024-Present)**
 ### 🎧 Podcast Listener Analytics – Audience platform data lake implementation 
 **Tech Stack**: PySpark, Databricks, AWS S3, AWS Lambda  
@@ -40,7 +40,7 @@ I bring a proven track record of enhancing data pipeline performance (up to 30% 
 - Achieved <1% error rate in production and received a **Certificate of Excellence** from the client.
 
   ---
-###Ernst & young – Bangalore, India
+**Ernst & young – Bangalore, India**
 **Data Engineer (2022-2024)**
 ### 🧮 IFRS17 Compliance Platform – Financial Services  
 **Tech Stack**: AWS Glue, PySpark, Athena, RDS, Airflow  
@@ -52,21 +52,61 @@ I bring a proven track record of enhancing data pipeline performance (up to 30% 
 
 ---
 
-### Customer & Order Analytics Platform on GCP
-**Tech Stack**: Google Cloud Platform (GCP), Cloud Composer (Apache Airflow), Python, Google Cloud Storage (GCS), BigQuery, SQL, Looker Studio
-##Project Description
-Built a cloud-native analytics platform on Google Cloud to serve as a centralized source of truth for customer and order data. The platform automates daily ingestion, transformation, and loading of raw data into BigQuery, enabling reliable business reporting and analytics. The solution emphasizes scalability, data quality, and minimal manual intervention through workflow orchestration with Apache Airflow.
+# Customer & Order Analytics Platform on GCP
 
-Key Responsibilities & Achievements
---Designed and implemented an end-to-end ETL pipeline on Google Cloud to process daily customer and order datasets.
---Orchestrated workflows using Apache Airflow (Cloud Composer) for automated ingestion, transformation, and loading.
---Ingested raw files from Google Cloud Storage (GCS) with automated file detection and validation.
---Developed Python-based data cleaning and transformation logic, including column standardization, missing value handling, and schema consistency.
---Loaded curated datasets into BigQuery using optimized load jobs with schema autodetection and configurable write modes.
---Created analytical SQL transformations in BigQuery to join customer and order data for reporting use cases.
---Implemented error handling, retries, and task dependencies to ensure reliable and fault-tolerant pipeline execution.
---Enabled business intelligence and reporting by exposing analytics-ready datasets to Looker Studio.
---Monitored and scheduled pipelines via Cloud Composer, reducing operational overhead.
+**Tech Stack:** Google Cloud Platform (GCP), Cloud Composer (Apache Airflow), Python, Google Cloud Storage (GCS), BigQuery, SQL, Looker Studio
+
+---
+## Project Description
+Built a cloud-native analytics platform on Google Cloud to serve as a **centralized source of truth** for customer and order data. The platform automates daily ingestion, transformation, and loading of raw data into BigQuery, enabling reliable business reporting and analytics. The solution emphasizes **scalability, data quality, and minimal manual intervention** through workflow orchestration with Apache Airflow.
+
+---
+
+## Key Responsibilities & Achievements
+- Designed and implemented an **end-to-end ETL pipeline** on Google Cloud to process daily customer and order datasets.
+- Orchestrated workflows using **Apache Airflow (Cloud Composer)** for automated ingestion, transformation, and loading.
+- Ingested raw files from **Google Cloud Storage (GCS)** with automated file detection and validation.
+- Developed **Python-based data cleaning and transformation logic**, including column standardization, missing value handling, and schema consistency.
+- Loaded curated datasets into **BigQuery** using optimized load jobs with schema autodetection and configurable write modes.
+- Created **analytical SQL transformations** in BigQuery to join customer and order data for reporting use cases.
+- Implemented **error handling, retries, and task dependencies** to ensure reliable and fault-tolerant pipeline execution.
+- Enabled **business intelligence and reporting** by exposing analytics-ready datasets to **Looker Studio**.
+- Monitored and scheduled pipelines via **Cloud Composer**, reducing operational overhead.
+
+---
+
+## Architecture Overview
+![Architecture Diagram](assets/architecture.png)
+*Centralized flow from data ingestion in GCS → Airflow ETL → BigQuery → Looker Studio dashboards.*
+
+---
+
+## Data Flow
+![Data Flow Diagram](assets/data_flow.png)
+*Daily customer and order files are detected, validated, transformed, and loaded into BigQuery.*
+
+---
+
+## Pipeline Workflow
+![Pipeline Workflow](assets/pipeline_workflow.png)
+*High-level overview of ETL steps, including ingestion, cleaning, transformation, and loading.*
+
+---
+
+## DAG Execution Flow
+![DAG Flow](assets/dag_execution.png)
+*Task orchestration flow handled by Cloud Composer (Airflow), including error handling and retries.*
+
+---
+
+## Future Enhancements
+- Add **streaming ingestion** for near real-time updates.  
+- Introduce **dbt transformations** for modular and testable analytics pipelines.  
+- Implement **data lineage & observability** dashboards.  
+- Integrate **machine learning pipelines** for predictive analytics.
+
+
+
 
 ### 📊 Metadata Dashboard Automation – BI4BI  
 **Tech Stack**: Power BI, SQL Server, Python, REST APIs  
@@ -76,7 +116,7 @@ Key Responsibilities & Achievements
 - Enabled actionable insights through data modeling and transformation using **Pandas and SQL**.
 
 ---
-###Subtle Solutions Pune, India
+**Subtle Solutions Pune, India**
 **Data Engineer (2019-2022)**
 ###E-Commerce Analytics & Data Platform on AWS
 **Tech Stack**: AWS Glue, PySpark, Python, AWS S3, Amazon RDS, AWS Lambda, Amazon Athena, EC2, SQL
