@@ -20,9 +20,9 @@ I bring a proven track record of enhancing data pipeline performance (up to 30% 
 - B.E. | BMS College of Engineering (2014-2018)
 
 ### Work Experience
-**Publicis Sapient, Hyderabad, India**
+###Publicis Sapient, Hyderabad, India**
 **Sr. Data Engineer(2024-Present)**
-### 🎧 Podcast Listener Analytics – Audience platform data lake implementation 
+## 🎧 Podcast Listener Analytics – Audience platform data lake implementation 
 **Tech Stack**: PySpark, Databricks, AWS S3, AWS Lambda  
 ###The Audience platform was built as a single source of truth data lake serving all business units. It centralizes audience and podcast listener data and enables enterprise-wide reporting, advanced analytics, and data science model training.
 - Built scalable ingestion and transformation pipelines for podcast listener data.
@@ -31,7 +31,7 @@ I bring a proven track record of enhancing data pipeline performance (up to 30% 
 - Orchestrated ETL workflows using **Databricks Workflows** with minimal manual intervention.
 - Improved query performance through **tuning of PySpark jobs and SQL transformations**.
 ---
-### 🔄 Redshift to Salesforce Migration  
+##🔄 Redshift to Salesforce Migration  
 **Tech Stack**: AWS Glue, AWS S3, Python Bulk API v2, PySpark  
 
 - Delivered **end-to-end data migration** for 17M+ member records across key Salesforce objects.
@@ -40,9 +40,10 @@ I bring a proven track record of enhancing data pipeline performance (up to 30% 
 - Achieved <1% error rate in production and received a **Certificate of Excellence** from the client.
 
   ---
-**Ernst & young – Bangalore, India**
+###Ernst & young – Bangalore, India**
+  ---
 **Data Engineer (2022-2024)**
-### 🧮 IFRS17 Compliance Platform – Financial Services  
+##🧮 IFRS17 Compliance Platform – Financial Services  
 **Tech Stack**: AWS Glue, PySpark, Athena, RDS, Airflow  
 
 - Built and deployed pipelines to support IFRS17 regulatory requirements.
@@ -51,19 +52,10 @@ I bring a proven track record of enhancing data pipeline performance (up to 30% 
 - Established **robust data validation frameworks** and collaborated with QA/UAT teams for successful rollout.
 
 ---
-
-# Customer & Order Analytics Platform on GCP
-
-**Tech Stack:** Google Cloud Platform (GCP), Cloud Composer (Apache Airflow), Python, Google Cloud Storage (GCS), BigQuery, SQL, Looker Studio
-
----
-# Customer & Order Analytics Platform on GCP
+## Customer & Order Analytics Platform on GCP
 
 **Role:** Data Engineer  
 **Tech Stack:** Google Cloud Platform (GCP), Cloud Composer (Apache Airflow), Python, Google Cloud Storage (GCS), BigQuery, SQL, Looker Studio
-
----
-
 ## Project Description
 
 Built a **cloud-native analytics platform** on Google Cloud to serve as a **centralized source of truth** for customer and order data. The platform automates daily ingestion, transformation, and loading of raw data into BigQuery, enabling reliable **business reporting and analytics**.  
@@ -71,10 +63,8 @@ Built a **cloud-native analytics platform** on Google Cloud to serve as a **cent
 The solution emphasizes:  
 - **Scalability** to handle growing volumes of customer and order data  
 - **Data quality** through automated validation and standardized transformations  
-- **Minimal manual intervention** using workflow orchestration with Apache Airflow
 
 ---
-
 ## Key Responsibilities & Achievements
 
 - Designed and implemented an **end-to-end ETL pipeline** on Google Cloud to process daily customer and order datasets.  
@@ -87,12 +77,11 @@ The solution emphasizes:
 - Enabled **business intelligence and reporting** by exposing analytics-ready datasets to **Looker Studio**.  
 - Monitored and scheduled pipelines via **Cloud Composer**, reducing operational overhead.
 
----
 ## Architecture Overview
 
 ![Architecture Diagram](assets/architecture.png)
 
-### 📊 Metadata Dashboard Automation – BI4BI  
+##📊 Metadata Dashboard Automation – BI4BI  
 **Tech Stack**: Power BI, SQL Server, Python, REST APIs  
 
 - Automated metadata ingestion using Python + REST APIs.
@@ -100,15 +89,11 @@ The solution emphasizes:
 - Enabled actionable insights through data modeling and transformation using **Pandas and SQL**.
 
 ---
-# Subtle Solutions Pune, India**
-# E-Commerce Analytics & Data Platform on AWS
-
-**Company:** Subtle Solutions, Pune, India  
-**Role:** Data Engineer (2019-2022)  
-**Tech Stack:** AWS Glue, PySpark, Python, AWS S3, Amazon RDS, AWS Lambda, Amazon Athena, EC2, SQL
-
+### Subtle Solutions Pune, India
+**Role:** Data Engineer (2019-2022)
 ---
-
+## E-Commerce Analytics & Data Platform on AWS
+**Tech Stack:** AWS Glue, PySpark, Python, AWS S3, Amazon RDS, AWS Lambda, Amazon Athena, EC2, SQL
 ## Project Description
 
 Developed a **scalable data platform on AWS** to support analytics, reporting, and operational insights for a growing e-commerce business. The platform:  
@@ -119,7 +104,6 @@ Developed a **scalable data platform on AWS** to support analytics, reporting, a
 - Focuses on **performance optimization**, reliability, and seamless integration across AWS services.
 
 ---
-
 ## Key Responsibilities & Achievements
 
 - Designed and implemented **scalable ETL pipelines** using AWS Glue, PySpark, and Python to process high-volume e-commerce data.  
@@ -133,7 +117,6 @@ Developed a **scalable data platform on AWS** to support analytics, reporting, a
 - Supported **downstream reporting and analytics use cases** by delivering reliable, analytics-ready datasets.
 
 ---
-
 ## Architecture Overview
 
 *High-level AWS e-commerce data platform architecture: File ingestion → Validation → ETL → Analytics-ready datasets → Reporting.*
