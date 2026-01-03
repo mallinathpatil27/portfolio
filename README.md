@@ -33,7 +33,7 @@ I’m a Results-driven Data Engineer with over 5 years of experience designing a
 **Sr. Data Engineer (2024-Present)**
 
 ### Projects
-### 🎧 Podcast Listener Analytics – Audience Platform Data Lake
+### 1.🎧 Podcast Listener Analytics – Audience Platform Data Lake
 **Tech Stack:** PySpark, Databricks, AWS S3, AWS Lambda  
 
 
@@ -46,7 +46,7 @@ The Audience platform was built as a single source of truth data lake for all bu
 - Optimized query performance with PySpark and SQL tuning
 
 
-### 🔄 Redshift to Salesforce Migration
+### 2.🔄 Redshift to Salesforce Migration
 **Tech Stack:** AWS Glue, AWS S3, Python Bulk API v2, PySpark  
 
 - Migrated 1TB member records across Salesforce objects  
@@ -60,7 +60,7 @@ The Audience platform was built as a single source of truth data lake for all bu
 **Data Engineer (2022-2024)**
 
 ### Projects
-### 🧮 IFRS17 Compliance Platform – Financial Services
+### 1.🧮 IFRS17 Compliance Platform – Financial Services
 **Tech Stack:** AWS Glue, PySpark, Athena, RDS, Airflow  
 
 - Built pipelines for IFRS17 regulatory compliance  
@@ -69,7 +69,7 @@ The Audience platform was built as a single source of truth data lake for all bu
 - Established robust data validation frameworks 
 
 
-### Customer & Order Analytics Platform on GCP
+### 2.Customer & Order Analytics Platform on GCP
 **Tech Stack:** GCP, Cloud Composer (Apache Airflow), Python, GCS, BigQuery, SQL, Looker Studio
 
 ### Project Description
@@ -84,7 +84,7 @@ Built a cloud-native analytics platform to serve as a centralized source of trut
 - Ensured fault-tolerant execution with error handling & retries 
 - Exposed datasets for Looker Studio dashboards
 
-### 📊 Metadata Dashboard Automation – BI4BI
+### 3.📊 Metadata Dashboard Automation – BI4BI
 **Tech Stack:** Power BI, SQL Server, Python, REST APIs  
 
 - Automated metadata ingestion using Python + REST APIs 
@@ -97,7 +97,7 @@ Built a cloud-native analytics platform to serve as a centralized source of trut
 **Role:** Data Engineer (2019-2022)
 
 ### Projects
-### E-Commerce Analytics & Data Platform on AWS
+### 1.E-Commerce Analytics & Data Platform on AWS
 **Tech Stack:** AWS Glue, PySpark, Python, S3, RDS, Lambda, Athena, EC2, SQL  
 
 **Project Description**  
