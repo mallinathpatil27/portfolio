@@ -159,13 +159,14 @@ Developed a **scalable data platform on AWS** to support analytics, reporting, a
 
 ## Architecture Overview
 
-*High-level AWS e-commerce data platform architecture: Ingestion → Transformation → Analytics-ready datasets.*
+*High-level AWS e-commerce data platform architecture: File ingestion → Validation → ETL → Analytics-ready datasets → Reporting.*
 
 ```mermaid
 flowchart LR
     A[Transactional & Customer Data] --> B[AWS S3 - Raw Zone]
-    B --> C[AWS Glue ETL Jobs<br>PySpark / Python]
-    C --> D[Amazon RDS & Analytics Stores]
-    D --> E[AWS Lambda<br>Automation / Validation]
-    D --> F[Amazon Athena<br>Ad-hoc Analysis & Reporting]
+    B --> C[AWS Lambda<br>File Detection & Validation]
+    C --> D[AWS Glue ETL Jobs<br>PySpark / Python]
+    D --> E[Amazon RDS & Analytics Stores]
+    E --> F[Amazon Athena / Reporting / BI]
+
 
